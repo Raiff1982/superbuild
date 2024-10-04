@@ -1,7 +1,7 @@
 ## Copyright 2021 Intel Corporation
 ## SPDX-License-Identifier: Apache-2.0
 
-cmake_minimum_required(VERSION 3.12)
+make_minimum_required(VERSION 3.20)
 
 if(NOT CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX
@@ -9,7 +9,7 @@ if(NOT CMAKE_INSTALL_PREFIX)
       CACHE STRING "Final install location." FORCE)
 endif()
 
-project(renderkit_superbuild)
+project(render_kit_superbuild)
 
 include(CheckCXXCompilerFlag)
 include(CMakeDependentOption)
